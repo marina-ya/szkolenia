@@ -9,7 +9,7 @@ export default function CoursesBlocks(props) {
       {props.events.map(event => (
         <Style.Block key={event.title}>
           <h3>{event.title}</h3>
-          <p>Start: {event.date}</p>
+          <p>Sta drt: {event.date}</p>
           <p>{event.free} wolnych miejsc</p>
           <Style.Button href={event.link}>szczegóły</Style.Button>{' '}
         </Style.Block>
