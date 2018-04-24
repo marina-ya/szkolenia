@@ -1,6 +1,11 @@
 import styled from 'styled-components'
 
-export const CoursesBlocks = styled.div`
+export const Section = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+`
+export const Holder = styled.div`
   display: flex;
   justify-content: center;
 `
@@ -12,16 +17,16 @@ export const Block = styled.div`
   background: #6c376f;
   color: #fff;
   width: 20%;
-  text-align: center;
 `
 export const Button = styled.button`
   color: white;
   font-size: 14px;
-
-  padding: 0 25px;
+  padding: 3px 25px;
   font-weight: bold;
   border-radius: 50px;
   cursor: pointer;
   background: #4c264f;
   outline-style: none;
+  outline: none;
+  border: none;
 `

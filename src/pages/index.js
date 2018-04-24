@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/Header'
-import CoursesBlocks from '../components/CoursesBlocks'
+import CoursesList from '../components/CoursesList'
+import CalendarList from '../components/Calendar'
 import styled, { injectGlobal } from 'styled-components'
 injectGlobal`
   html,body {
@@ -16,7 +17,8 @@ injectGlobal`
 const IndexPage = () => (
   <div>
     <Header />
-    <CoursesBlocks />
+    <CalendarList />
+    <CoursesList />
   </div>
 )
 
