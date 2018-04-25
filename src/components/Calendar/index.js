@@ -1,13 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import * as Style from './styles'
-import { Section, Holder, Block, Button } from './styles'
-
+import { Block } from './styles'
+import { Section, Holder, Button, Title } from '../common/styles'
 export default function CalendarList(props) {
   return (
     <Section>
-      <h2>Kalendarz najbliższych szkoleń</h2>
+      <Title>Kalendarz najbliższych szkoleń</Title>
       <Holder>
         {props.events.map(event => (
           <Block key={event.title}>

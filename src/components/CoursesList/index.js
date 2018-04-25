@@ -1,13 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import * as Style from './styles'
-import { Section } from './styles'
-
+import { Section, Title } from '../common/styles'
 export default function CoursesList(props) {
   return (
     <Section>
-      <h2>Lista szkolen</h2>
+      <Title>Lista szkolen</Title>
       <ul>
         <li>Blockchain</li>
         <li>AWS</li>

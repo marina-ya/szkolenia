@@ -3,6 +3,8 @@ import Link from 'gatsby-link'
 import Header from '../components/Header'
 import CoursesList from '../components/CoursesList'
 import CalendarList from '../components/Calendar'
+import TrainersList from '../components/TrainersList'
+
 import styled, { injectGlobal } from 'styled-components'
 injectGlobal`
   html,body {
@@ -19,6 +21,7 @@ const IndexPage = () => (
     <Header />
     <CalendarList />
     <CoursesList />
+    <TrainersList />
   </div>
 )
 
